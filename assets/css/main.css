@@ -1281,6 +1281,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				flex-direction: ;
 			}
 
 				.row > * {
@@ -3163,9 +3164,17 @@ input, select, textarea {
 			}
 
 		/* List */
+			.contact{
+				margin-left: .1%;
+			}
+
+			.labeled-icons{
+				width: 12rem;
+			}
 
 			ul.labeled-icons li {
 				padding-left: 2em;
+				
 			}
 
 				ul.labeled-icons li h3 {
@@ -3199,6 +3208,12 @@ input, select, textarea {
 					padding: 2.25em 0 0 0;
 				}
 
+
+		/* Forms */
+		
+				form{
+					width: 420px;
+				}
 		/* Poptrox */
 
 			.poptrox-popup {
