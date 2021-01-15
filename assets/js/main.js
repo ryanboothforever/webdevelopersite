@@ -94,6 +94,19 @@
 
 			}
 
+				//Replace Text function		 
+			$(function () {
+				count = 0;
+				wordsArray = ["Father.", "baker.", "board game enthusiast.", "Web Developer."];
+				setInterval(function () {
+					count++;
+					$(".my-noun").fadeOut(500, function () {
+						$(this).text(wordsArray[count % wordsArray.length]).fadeIn(500);
+					});
+				}, 3000);
+			});
+//End Replace Text function
+
 	// Main Sections: Two.
 
 		// Lightbox gallery.
