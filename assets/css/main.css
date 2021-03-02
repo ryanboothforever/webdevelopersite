@@ -1801,6 +1801,10 @@ input, select, textarea {
 		font-size: 2em;
 	}
 
+	#one{
+		display: flex;
+		flex-direction: column;
+	}
 /* Form */
 
 	form {
