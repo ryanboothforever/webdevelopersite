@@ -3226,8 +3226,7 @@ input, select, textarea {
 			#header>.back-div {
 				position: absolute;
 				top: 25px;
-				left: 30px;
-				margin: 0 2rem;
+				left: -8px;
 				height: 3rem;
 			}
 
