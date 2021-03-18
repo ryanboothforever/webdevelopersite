@@ -3106,6 +3106,23 @@ input, select, textarea {
 						display: inline;
 					}
 
+			/*Terms & Conditions*/
+			#header>.back-div {
+				position: absolute;
+				top: 25px;
+				left: 30px;
+				margin: 0 2rem;
+				height: 3rem;
+			}
+
+			#header>.back-div>a {
+				border: none;
+			}
+
+			.back-arrow {
+				height: 2rem;
+			}
+
 		/* Footer */
 
 			#footer {
@@ -3204,6 +3221,23 @@ input, select, textarea {
 				#header h1 {
 					font-size: 1.35em;
 				}
+
+			/*Terms & Conditions*/
+			#header>.back-div {
+				position: absolute;
+				top: 25px;
+				left: 30px;
+				margin: 0 2rem;
+				height: 3rem;
+			}
+
+			#header>.back-div>a {
+				border: none;
+			}
+
+			.back-arrow {
+				height: 2rem;
+			}
 
 		/* Footer */
 
