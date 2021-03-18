@@ -1281,7 +1281,6 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
-				flex-direction: ;
 			}
 
 				.row > * {
@@ -2662,6 +2661,21 @@ input, select, textarea {
 			margin: 0;
 		}
 
+/*Terms & Conditions*/
+	#header > .back-div{
+		position: absolute;
+		top: 25px;
+		left: 30px;
+		margin-left: 20px;
+		height: 3rem;
+		text-align: left;
+	}
+	#header > .back-div > a{
+		border: none;
+	}
+	.back-arrow{
+		height: 3rem;
+	}
 /* Footer */
 
 	#footer .icons {
