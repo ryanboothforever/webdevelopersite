@@ -3,6 +3,7 @@ AppVersion=5.12
 Version=352
 
 [General]
+Rank=1
 ColorLabel=0
 InTrash=false
 
@@ -165,8 +166,8 @@ Uniformity=5
 [White Balance]
 Enabled=true
 Setting=Camera
-Temperature=-1
-Green=-1
+Temperature=6501
+Green=0.99999062833533436
 Equal=1
 TemperatureBias=0
 StandardObserver=TWO_DEGREES
@@ -314,8 +315,8 @@ Pivot=0
 Enabled=false
 X=-1
 Y=-1
-W=15000
-H=15000
+W=6306
+H=4182
 FixedRatio=true
 Ratio=As Image
 Orientation=As Image
